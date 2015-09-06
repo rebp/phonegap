@@ -13,7 +13,7 @@ function saveData(e) {
 		long 		= $('#long').val();
 
 	$.ajax({
-		url: "http://localhost/phonegap/add.php",
+		url: "http://rebp.nl/phonegap/add.php",
 		type: "POST",
 		data: ({
 			name: name, 
